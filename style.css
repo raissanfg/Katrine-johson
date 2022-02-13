@@ -4,7 +4,6 @@ body {
     font-family: 'Courier New', monospace;
     display: flex;
     flex-direction: column;
-
   }
   
   h1 {
@@ -27,7 +26,6 @@ body {
     margin-top: 40px;
     border-radius: 10px;
     border: 3px solid #7D4F50;
-    align-self: center;
   }
   
   li {
@@ -47,50 +45,48 @@ body {
     font-size: 25px;
   }
   
-
   a {
     color: white;
     text-decoration:  white wavy underline;
   }
+
   figcaption {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  ul{
-      align-self: center;
-  }
 
   .centered-elements {
       align-self: center;
   }
-  section{
-    display: flex;
-    justify-content: space-evenly;
 
+  section {
+      display: flex;
+      justify-content: space-evenly;
   }
+
   .image-gallery {
       width: 300px;
   }
 
-  .container{
+  .container {
       display: flex;
       justify-content: space-around;
       background: white;
       font-weight: bold;
-      font-size: 20px
-
+      font-size: 20px;
   }
 
-  .nav-links{
-      color: black;
-  }
-  
+.nav-links {
+    color: #7D4F50;
+}
+
   #subtitle {
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 25px;
   }
+
   #quote {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -99,5 +95,4 @@ body {
     margin-top: 50px;
     border: 3px dotted white;
   }
-
   
